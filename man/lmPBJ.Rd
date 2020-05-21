@@ -53,9 +53,9 @@ each column corresponds to an imaging covariate. Currently, not supported.}
 Uses HC3 SE estimates from Long and Ervin 2000.}
 
 \item{sqrtSigma}{Logical: return V X n matrix sqrtSigma? Defaults to TRUE (described below).
-Required to use pbj function.}
+Required to use pbj sampling functions.}
 
-\item{transform}{Logical: use transformation from equation (5) of Vandekar et al. 2019 (Biometrics)?
+\item{transform}{Logical: use transformation from equation (5) of Vandekar et al. 2019 (Biometrics).
 Defaults to TRUE.
 (instead of niftiImage objects; defaults to FALSE).}
 
